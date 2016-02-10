@@ -141,7 +141,7 @@ var PathUtils = {
 
     if (existingQuery) query = query ? assign(existingQuery, query) : existingQuery;
 
-    var queryString = qs.stringify(query, { arrayFormat: 'brackets' });
+    var queryString = qs.stringify(query, { arrayFormat: 'brackets', encode: false });
 
     if (queryString) return PathUtils.withoutQuery(path) + '?' + queryString;
 

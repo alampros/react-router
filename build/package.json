@@ -21,7 +21,7 @@
     "can-use-dom": "0.1.0",
     "invariant": "^2.0.0",
     "object-assign": "^2.0.0",
-    "qs": "2.4.1"
+    "qs": "6.1.0"
   },
   "tags": [
     "react",
